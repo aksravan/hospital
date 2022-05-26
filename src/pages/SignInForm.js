@@ -94,9 +94,9 @@ class SignInForm extends Component {
             </div>
             <div className="FormField">
               {/* Write code here to create a login button */}
-              <div className="FormField">
-                <Button type="submit" className="FormField__Button">Login</Button>
-              </div>
+
+              <Button type="submit" className="FormField__Button">Login</Button>
+
             </div>
           </form>
         </div>
