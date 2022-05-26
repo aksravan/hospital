@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import DatePicker from "react-datepicker";
 import {adminDetailsData} from "./data.js"
-
+import Button from "../components/Button.jsx";
 import "../App.css";
 class SignUpForm extends Component {
   constructor(props) {
@@ -93,9 +93,27 @@ class SignUpForm extends Component {
         
             
             {/*Write code here to create uname, email, dob, location, mobileno labels and inputs */}
+            <label className="FormField__Label" htmlFor="uname">Username</label>
+            <input className="FormField__Input" type="text" id="uname" name="uname" placeholder="Enter your username" />
+
+            <label className="FormField__Label" htmlFor="email">E-Mail ID</label>
+            <input className="FormField__Input" type="text" id="email" name="email" placeholder="Enter your email" />
+
+            <label className="FormField__Label" htmlFor="password">Password</label>
+            <input className="FormField__Input" type="password" id="password" name="password" placeholder="Enter your password" />
+            
+            <label className="FormField__Label" htmlFor="dob">Date of Birth</label>
+            <input className="FormField__Input" type="text" id="dob" name="dob" placeholder="Enter date in format of dd/mm/yyy" />
+
+            <label className="FormField__Label" htmlFor="mobileno">Mobile No</label>
+            <input className="FormField__Input" type="text" id="mobileno" name="mobileno" placeholder="Enter Mobile Number" />
+
+            <label className="FormField__Label" htmlFor="location">Location</label>
+            <input className="FormField__Input" type="test" id="location" name="location" placeholder="Please enter the location" />
             
             <div className="FormField">
               {/* Write code here to create Register Button */}
+              <Button type="submit" className="FormField__Button">Register</Button>
             </div>
           </form>
         </div>

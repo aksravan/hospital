@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import {adminDetailsData} from "./data.js";
+import { adminDetailsData } from "./data.js";
 import "../App.css";
+import Button from "../components/Button.jsx";
 
 class SignInForm extends Component {
   constructor() {
@@ -10,7 +11,7 @@ class SignInForm extends Component {
     this.state = {
       email: "",
       password: "",
-      adminDetails:adminDetailsData.getData()
+      adminDetails: adminDetailsData.getData()
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -26,37 +27,36 @@ class SignInForm extends Component {
       [name]: value
     });
   }
-  
+
   handleSubmit(e) {
     e.preventDefault();
     e.stopPropagation();
-    
-    const {adminDetails} = this.state;
-    
-   
+
+    const { adminDetails } = this.state;
+
+
     let validCredentials = false;
-if (this.canBeSubmitted()) {
-    adminDetails.map((admin) => {
-        
-         
-          if(this.state.email === admin.email && this.state.password === admin.password) 
-           {
-          let currentUser=admin.adminId;
+    if (this.canBeSubmitted()) {
+      adminDetails.map((admin) => {
+
+
+        if (this.state.email === admin.email && this.state.password === admin.password) {
+          let currentUser = admin.adminId;
           validCredentials = true
           adminDetailsData.setCurrentUser(admin.adminId);
           this.props.history.push("/allpatients");
-          return 
-           }
-           
-        
-    })
-        if(!validCredentials) {
+          return
+        }
+
+
+      })
+      if (!validCredentials) {
         alert("please enter valid credentials")
         this.props.history.push("/sign-in");
-        }
-}
-      
- }
+      }
+    }
+
+  }
   canBeSubmitted() {
     const { email, password, adminDetails } = this.state;
     return email.length > 0 && password.length > 0;
@@ -64,7 +64,7 @@ if (this.canBeSubmitted()) {
 
   render() {
     const isEnabled = this.canBeSubmitted();
-   
+
     return (
       <div>
         <div>
@@ -85,8 +85,15 @@ if (this.canBeSubmitted()) {
 
           <form onSubmit={this.handleSubmit} className="FormFields">
             {/*Write code here to create labels and fields for username and password */}
+            <label className="FormField__Label" htmlFor="email">E-Mail Address</label>
+            <input className="FormField__Input" type="text" id="email" name="email" placeholder="Enter your email" />
+
+            <label className="FormField__Label" htmlFor="password">Password</label>
+            <input className="FormField__Input" type="password" id="password" name="password" placeholder="Enter your password" />
             <div className="FormField">
-             {/* Write code here to create a login button */}
+              {/* Write code here to create a login button */}
+
+              <Button type="submit" className="FormField__Button">Login</Button>
             </div>
           </form>
         </div>
