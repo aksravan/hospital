@@ -1,823 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite id="0" name="/projects/challenge/src/tests/EditPatient.test.js" errors="0" package="/projects/challenge/src/tests/EditPatient.test.js" hostname="localhost" tests="13" failures="13" time="12.807" timestamp="2022-05-26T10:05:13">
-    <properties>
-    </properties>
-    <testcase classname="testing EditPatient" name="should render eight &lt;div/&gt;" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m10[39m
-Received:
-  [31m4[39m
-    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:18:40)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditPatient" name="should render five labels &lt;label/&gt;" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m5[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:23:42)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditPatient" name="should render three inputs &lt;input/&gt;" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m5[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:26:42)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditPatient" name="renders a name input" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:29:216)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditPatient" name="renders a email" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:32:217)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditPatient" name="renders a dob" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:35:215)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditPatient" name="renders a location" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:38:220)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditPatient" name="renders a mobile" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:41:218)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditPatient" name="should change the name state of adding patient" time="0">
-      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
-    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:44:27)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditPatient" name="should change the email state of adding patient" time="0">
-      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
-    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:49:28)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditPatient" name="should change the dob state of adding patient" time="0">
-      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
-    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:53:26)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditPatient" name="should change the location state of adding patient" time="0">
-      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
-    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:57:31)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditPatient" name="should change the mobile state of adding patient" time="0">
-      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
-    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:62:29)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="1" name="/projects/challenge/src/tests/ViewAppointment.test.js" errors="0" package="/projects/challenge/src/tests/ViewAppointment.test.js" hostname="localhost" tests="7" failures="7" time="12.501" timestamp="2022-05-26T10:05:14">
-    <properties>
-    </properties>
-    <testcase classname="testing ViewAppointment" name="should render eight &lt;div/&gt;" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m10[39m
-Received:
-  [31m5[39m
-    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:20:40)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing ViewAppointment" name="should render five labels &lt;label/&gt;" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m5[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:26:41)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing ViewAppointment" name="renders a name input" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:29:223)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing ViewAppointment" name="renders a disease" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:32:226)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing ViewAppointment" name="renders a appdate" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:35:226)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing ViewAppointment" name="renders a slot" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:38:223)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing ViewAppointment" name="renders a description" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:41:230)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="2" name="/projects/challenge/src/tests/ViewPatient.test.js" errors="0" package="/projects/challenge/src/tests/ViewPatient.test.js" hostname="localhost" tests="7" failures="7" time="13.209" timestamp="2022-05-26T10:05:13">
-    <properties>
-    </properties>
-    <testcase classname="testing ViewPatient" name="should render seven &lt;div /&gt;" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m9[39m
-Received:
-  [31m4[39m
-    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:24:42)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing ViewPatient" name="should render five labels &lt;span/&gt;" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m5[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:30:43)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing ViewPatient" name="renders a name input" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:33:218)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing ViewPatient" name="renders a email" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:36:219)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing ViewPatient" name="renders a dob" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:39:217)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing ViewPatient" name="renders a location" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:42:222)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing ViewPatient" name="renders a mobile" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:45:220)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="3" name="/projects/challenge/src/tests/EditAppointment.test.js" errors="0" package="/projects/challenge/src/tests/EditAppointment.test.js" hostname="localhost" tests="13" failures="13" time="13.104" timestamp="2022-05-26T10:05:14">
-    <properties>
-    </properties>
-    <testcase classname="testing EditAppointment" name="should render eight &lt;div/&gt;" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m10[39m
-Received:
-  [31m3[39m
-    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:18:40)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditAppointment" name="should render five labels &lt;label/&gt;" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m5[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:24:42)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditAppointment" name="should render three inputs &lt;input/&gt;" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m5[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:27:42)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditAppointment" name="renders a name input" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:30:223)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditAppointment" name="renders a disease" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:33:226)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditAppointment" name="renders a appdate" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:36:226)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditAppointment" name="renders a slot" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:39:223)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditAppointment" name="renders a description" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m1[39m
-Received:
-  [31m0[39m
-    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:42:230)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditAppointment" name="should change the name state of adding patient" time="0">
-      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
-    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:45:27)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditAppointment" name="should change the disease state of adding patient" time="0">
-      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
-    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:50:30)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditAppointment" name="should change the appdate state of adding patient" time="0">
-      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
-    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:54:30)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditAppointment" name="should change the slot state of adding patient" time="0">
-      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
-    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:58:27)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="testing EditAppointment" name="should change the description state of adding patient" time="0">
-      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
-    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:63:34)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="4" name="/projects/challenge/src/tests/SignUpForm.test.js" errors="0" package="/projects/challenge/src/tests/SignUpForm.test.js" hostname="localhost" tests="16" failures="7" time="13.795" timestamp="2022-05-26T10:05:13">
-    <properties>
-    </properties>
-    <testcase classname="SignUpForm" name="should render eleven &lt;div /&gt;" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m11[39m
-Received:
-  [31m5[39m
-    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:17:40)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="SignUpForm" name="should render six &lt;label&gt;s" time="0">
-    </testcase>
-    <testcase classname="SignUpForm" name="should render six &lt;input&gt;s" time="0">
-    </testcase>
-    <testcase classname="SignUpForm" name="renders a uname input" time="0">
-    </testcase>
-    <testcase classname="SignUpForm" name="renders a email input" time="0">
-    </testcase>
-    <testcase classname="SignUpForm" name="renders a password input" time="0">
-    </testcase>
-    <testcase classname="SignUpForm" name="renders a dob input" time="0">
-    </testcase>
-    <testcase classname="SignUpForm" name="renders a mobileno input" time="0">
-    </testcase>
-    <testcase classname="SignUpForm" name="renders a location input" time="0">
-    </testcase>
-    <testcase classname="SignUpForm" name="should change the name state of login component" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m&quot;Alex&quot;[39m
-Received:
-  [31m&quot;&quot;[39m
-    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:48:36)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="SignUpForm" name="should change the email state of login component" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m&quot;alex@gmail.com&quot;[39m
-Received:
-  [31m&quot;&quot;[39m
-    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:52:36)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="SignUpForm" name="should change the password state of login component" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m&quot;12345678&quot;[39m
-Received:
-  [31m&quot;&quot;[39m
-    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:56:39)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="SignUpForm" name="should change the dob state of login component" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m&quot;26/5/1996&quot;[39m
-Received:
-  [31m&quot;&quot;[39m
-    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:60:34)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="SignUpForm" name="should change the mobileno state of login component" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m&quot;8789879878&quot;[39m
-Received:
-  [31m&quot;&quot;[39m
-    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:64:39)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="SignUpForm" name="should change the location state of login component" time="0">
-      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
-
-Expected value to equal:
-  [32m&quot;Chennai&quot;[39m
-Received:
-  [31m&quot;&quot;[39m
-    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:68:39)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-    </testcase>
-    <testcase classname="SignUpForm" name="valid path" time="0">
-    </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="5" name="/projects/challenge/src/tests/AddPatient.test.js" errors="0" package="/projects/challenge/src/tests/AddPatient.test.js" hostname="localhost" tests="14" failures="14" time="13.501" timestamp="2022-05-26T10:05:13">
+  <testsuite id="0" name="/projects/challenge/src/tests/AddPatient.test.js" errors="0" package="/projects/challenge/src/tests/AddPatient.test.js" hostname="localhost" tests="14" failures="14" time="8.602" timestamp="2022-05-26T10:10:52">
     <properties>
     </properties>
     <testcase classname="testing add patient" name="should render eight &lt;div/&gt;" time="0">
@@ -1043,7 +226,344 @@ Received:
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="6" name="/projects/challenge/src/tests/BookAppointment.test.js" errors="0" package="/projects/challenge/src/tests/BookAppointment.test.js" hostname="localhost" tests="13" failures="10" time="13.609" timestamp="2022-05-26T10:05:13">
+  <testsuite id="1" name="/projects/challenge/src/tests/ViewAppointment.test.js" errors="0" package="/projects/challenge/src/tests/ViewAppointment.test.js" hostname="localhost" tests="7" failures="7" time="8.612" timestamp="2022-05-26T10:10:52">
+    <properties>
+    </properties>
+    <testcase classname="testing ViewAppointment" name="should render eight &lt;div/&gt;" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m10[39m
+Received:
+  [31m5[39m
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:20:40)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="should render five labels &lt;label/&gt;" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m5[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:26:41)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a name input" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:29:223)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a disease" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:32:226)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a appdate" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:35:226)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a slot" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:38:223)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing ViewAppointment" name="renders a description" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/ViewAppointment.test.js:41:230)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="/projects/challenge/src/tests/EditPatient.test.js" errors="0" package="/projects/challenge/src/tests/EditPatient.test.js" hostname="localhost" tests="13" failures="13" time="8.616" timestamp="2022-05-26T10:10:52">
+    <properties>
+    </properties>
+    <testcase classname="testing EditPatient" name="should render eight &lt;div/&gt;" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m10[39m
+Received:
+  [31m4[39m
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:18:40)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditPatient" name="should render five labels &lt;label/&gt;" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m5[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:23:42)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditPatient" name="should render three inputs &lt;input/&gt;" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m5[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:26:42)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a name input" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:29:216)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a email" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:32:217)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a dob" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:35:215)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a location" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:38:220)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditPatient" name="renders a mobile" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:41:218)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the name state of adding patient" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:44:27)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the email state of adding patient" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:49:28)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the dob state of adding patient" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:53:26)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the location state of adding patient" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:57:31)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditPatient" name="should change the mobile state of adding patient" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
+    at Object.it (/projects/challenge/src/tests/EditPatient.test.js:62:29)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="/projects/challenge/src/tests/BookAppointment.test.js" errors="0" package="/projects/challenge/src/tests/BookAppointment.test.js" hostname="localhost" tests="13" failures="10" time="8.994" timestamp="2022-05-26T10:10:52">
     <properties>
     </properties>
     <testcase classname="testing BookAppointment" name="should render eight &lt;div/&gt;" time="0">
@@ -1216,17 +736,17 @@ Received:
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="7" name="/projects/challenge/src/tests/SignInForm.test.js" errors="0" package="/projects/challenge/src/tests/SignInForm.test.js" hostname="localhost" tests="7" failures="1" time="1.296" timestamp="2022-05-26T10:05:26">
+  <testsuite id="4" name="/projects/challenge/src/tests/ViewPatient.test.js" errors="0" package="/projects/challenge/src/tests/ViewPatient.test.js" hostname="localhost" tests="7" failures="7" time="8.906" timestamp="2022-05-26T10:10:52">
     <properties>
     </properties>
-    <testcase classname="SignInForm" name="should render seven &lt;div /&gt;" time="0">
+    <testcase classname="testing ViewPatient" name="should render seven &lt;div /&gt;" time="0">
       <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
 
 Expected value to equal:
-  [32m7[39m
+  [32m9[39m
 Received:
-  [31m5[39m
-    at Object.it (/projects/challenge/src/tests/SignInForm.test.js:17:40)
+  [31m4[39m
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:24:42)
     at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
     at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
     at new Promise (&lt;anonymous&gt;)
@@ -1236,22 +756,603 @@ Received:
     at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
       </failure>
     </testcase>
-    <testcase classname="SignInForm" name="should render four &lt;label&gt;s" time="0">
+    <testcase classname="testing ViewPatient" name="should render five labels &lt;span/&gt;" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m5[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:30:43)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
     </testcase>
-    <testcase classname="SignInForm" name="should render four &lt;input&gt;s" time="0">
+    <testcase classname="testing ViewPatient" name="renders a name input" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:33:218)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
     </testcase>
-    <testcase classname="SignInForm" name="renders a fname input" time="0">
+    <testcase classname="testing ViewPatient" name="renders a email" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:36:219)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
     </testcase>
-    <testcase classname="SignInForm" name="renders a lname input" time="0">
+    <testcase classname="testing ViewPatient" name="renders a dob" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:39:217)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
     </testcase>
-    <testcase classname="SignInForm" name="should change the state of the Login Component" time="0">
+    <testcase classname="testing ViewPatient" name="renders a location" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:42:222)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
     </testcase>
-    <testcase classname="SignInForm" name="should change the state of the Login Component" time="0">
+    <testcase classname="testing ViewPatient" name="renders a mobile" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/ViewPatient.test.js:45:220)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
     </testcase>
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="8" name="/projects/challenge/src/tests/ViewProfile.test.js" errors="0" package="/projects/challenge/src/tests/ViewProfile.test.js" hostname="localhost" tests="7" failures="7" time="1.694" timestamp="2022-05-26T10:05:26">
+  <testsuite id="5" name="/projects/challenge/src/tests/EditAppointment.test.js" errors="0" package="/projects/challenge/src/tests/EditAppointment.test.js" hostname="localhost" tests="13" failures="13" time="8.895" timestamp="2022-05-26T10:10:53">
+    <properties>
+    </properties>
+    <testcase classname="testing EditAppointment" name="should render eight &lt;div/&gt;" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m10[39m
+Received:
+  [31m3[39m
+    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:18:40)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should render five labels &lt;label/&gt;" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m5[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:24:42)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should render three inputs &lt;input/&gt;" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m5[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:27:42)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a name input" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:30:223)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a disease" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:33:226)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a appdate" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:36:226)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a slot" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:39:223)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditAppointment" name="renders a description" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m1[39m
+Received:
+  [31m0[39m
+    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:42:230)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the name state of adding patient" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
+    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:45:27)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the disease state of adding patient" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
+    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:50:30)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the appdate state of adding patient" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
+    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:54:30)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the slot state of adding patient" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
+    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:58:27)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing EditAppointment" name="should change the description state of adding patient" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.simulate (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1371:21)
+    at Object.it (/projects/challenge/src/tests/EditAppointment.test.js:63:34)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="6" name="/projects/challenge/src/tests/SignUpForm.test.js" errors="0" package="/projects/challenge/src/tests/SignUpForm.test.js" hostname="localhost" tests="16" failures="7" time="10.196" timestamp="2022-05-26T10:10:52">
+    <properties>
+    </properties>
+    <testcase classname="SignUpForm" name="should render eleven &lt;div /&gt;" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m11[39m
+Received:
+  [31m5[39m
+    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:17:40)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="SignUpForm" name="should render six &lt;label&gt;s" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should render six &lt;input&gt;s" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a uname input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a email input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a password input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a dob input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a mobileno input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="renders a location input" time="0">
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the name state of login component" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m&quot;Alex&quot;[39m
+Received:
+  [31m&quot;&quot;[39m
+    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:48:36)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the email state of login component" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m&quot;alex@gmail.com&quot;[39m
+Received:
+  [31m&quot;&quot;[39m
+    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:52:36)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the password state of login component" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m&quot;12345678&quot;[39m
+Received:
+  [31m&quot;&quot;[39m
+    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:56:39)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the dob state of login component" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m&quot;26/5/1996&quot;[39m
+Received:
+  [31m&quot;&quot;[39m
+    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:60:34)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the mobileno state of login component" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m&quot;8789879878&quot;[39m
+Received:
+  [31m&quot;&quot;[39m
+    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:64:39)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="SignUpForm" name="should change the location state of login component" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m&quot;Chennai&quot;[39m
+Received:
+  [31m&quot;&quot;[39m
+    at Object.it (/projects/challenge/src/tests/SignUpForm.test.js:68:39)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="SignUpForm" name="valid path" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="7" name="/projects/challenge/src/tests/AllAppointments.test.js" errors="0" package="/projects/challenge/src/tests/AllAppointments.test.js" hostname="localhost" tests="1" failures="1" time="1.4" timestamp="2022-05-26T10:11:01">
+    <properties>
+    </properties>
+    <testcase classname="testing AllAppointments" name="should set the state values" time="0">
+      <failure message="TypeError: Cannot read property &apos;length&apos; of undefined
+    at AllAppointments.render (/projects/challenge/src/pages/AllAppointments.jsx:43:28)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/AllAppointments.test.js:15:52)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;setProps&apos; of undefined
+    at Object.it (/projects/challenge/src/tests/AllAppointments.test.js:17:17)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="8" name="/projects/challenge/src/tests/NavBar.test.js" errors="0" package="/projects/challenge/src/tests/NavBar.test.js" hostname="localhost" tests="4" failures="4" time="1.211" timestamp="2022-05-26T10:11:01">
+    <properties>
+    </properties>
+    <testcase classname="testing NavBar component" name="checking the NavBar NavLink router content" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1431:21)
+    at Object.test (/projects/challenge/src/tests/NavBar.test.js:20:19)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing NavBar component" name="checking the NavBar allpatients router content" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1431:21)
+    at Object.test (/projects/challenge/src/tests/NavBar.test.js:29:19)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing NavBar component" name="checking the NavBar Book appointment router content" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1431:21)
+    at Object.test (/projects/challenge/src/tests/NavBar.test.js:37:19)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="testing NavBar component" name="checking the NavBar all appointments router content" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1431:21)
+    at Object.test (/projects/challenge/src/tests/NavBar.test.js:48:19)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="9" name="/projects/challenge/src/tests/AllPatients.test.js" errors="0" package="/projects/challenge/src/tests/AllPatients.test.js" hostname="localhost" tests="1" failures="1" time="1.319" timestamp="2022-05-26T10:11:01">
+    <properties>
+    </properties>
+    <testcase classname="testing AllPatients" name="should set the state values" time="0">
+      <failure message="TypeError: Cannot read property &apos;length&apos; of undefined
+    at AllPatients.render (/projects/challenge/src/pages/AllPatients.jsx:38:24)
+    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
+    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
+    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
+    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
+    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
+    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
+    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
+    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
+    at Object.beforeEach (/projects/challenge/src/tests/AllPatients.test.js:15:52)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+      <failure message="TypeError: Cannot read property &apos;setProps&apos; of undefined
+    at Object.it (/projects/challenge/src/tests/AllPatients.test.js:17:17)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="10" name="/projects/challenge/src/tests/ViewProfile.test.js" errors="0" package="/projects/challenge/src/tests/ViewProfile.test.js" hostname="localhost" tests="7" failures="7" time="1.498" timestamp="2022-05-26T10:11:01">
     <properties>
     </properties>
     <testcase classname="testing ViewProfile" name="should render nine &lt;div/&gt;" time="0">
@@ -1376,7 +1477,7 @@ Received:
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="9" name="/projects/challenge/src/App.test.js" errors="0" package="/projects/challenge/src/App.test.js" hostname="localhost" tests="1" failures="0" time="0.893" timestamp="2022-05-26T10:05:27">
+  <testsuite id="11" name="/projects/challenge/src/App.test.js" errors="0" package="/projects/challenge/src/App.test.js" hostname="localhost" tests="1" failures="0" time="1" timestamp="2022-05-26T10:11:02">
     <properties>
     </properties>
     <testcase classname="renders without crashing" name="renders without crashing" time="0">
@@ -1384,14 +1485,17 @@ Received:
     <system-out/>
     <system-err/>
   </testsuite>
-  <testsuite id="10" name="/projects/challenge/src/tests/NavBar.test.js" errors="0" package="/projects/challenge/src/tests/NavBar.test.js" hostname="localhost" tests="4" failures="4" time="1.203" timestamp="2022-05-26T10:05:27">
+  <testsuite id="12" name="/projects/challenge/src/tests/SignInForm.test.js" errors="0" package="/projects/challenge/src/tests/SignInForm.test.js" hostname="localhost" tests="7" failures="1" time="1.509" timestamp="2022-05-26T10:11:01">
     <properties>
     </properties>
-    <testcase classname="testing NavBar component" name="checking the NavBar NavLink router content" time="0">
-      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.props (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1431:21)
-    at Object.test (/projects/challenge/src/tests/NavBar.test.js:20:19)
+    <testcase classname="SignInForm" name="should render seven &lt;div /&gt;" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m7[39m
+Received:
+  [31m5[39m
+    at Object.it (/projects/challenge/src/tests/SignInForm.test.js:17:40)
     at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
     at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
     at new Promise (&lt;anonymous&gt;)
@@ -1401,121 +1505,17 @@ Received:
     at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
       </failure>
     </testcase>
-    <testcase classname="testing NavBar component" name="checking the NavBar allpatients router content" time="0">
-      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.props (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1431:21)
-    at Object.test (/projects/challenge/src/tests/NavBar.test.js:29:19)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
+    <testcase classname="SignInForm" name="should render four &lt;label&gt;s" time="0">
     </testcase>
-    <testcase classname="testing NavBar component" name="checking the NavBar Book appointment router content" time="0">
-      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.props (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1431:21)
-    at Object.test (/projects/challenge/src/tests/NavBar.test.js:37:19)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
+    <testcase classname="SignInForm" name="should render four &lt;input&gt;s" time="0">
     </testcase>
-    <testcase classname="testing NavBar component" name="checking the NavBar all appointments router content" time="0">
-      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
-    at ShallowWrapper.single (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:2197:17)
-    at ShallowWrapper.props (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:1431:21)
-    at Object.test (/projects/challenge/src/tests/NavBar.test.js:48:19)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
+    <testcase classname="SignInForm" name="renders a fname input" time="0">
     </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="11" name="/projects/challenge/src/tests/AllAppointments.test.js" errors="0" package="/projects/challenge/src/tests/AllAppointments.test.js" hostname="localhost" tests="1" failures="1" time="1.312" timestamp="2022-05-26T10:05:27">
-    <properties>
-    </properties>
-    <testcase classname="testing AllAppointments" name="should set the state values" time="0">
-      <failure message="TypeError: Cannot read property &apos;length&apos; of undefined
-    at AllAppointments.render (/projects/challenge/src/pages/AllAppointments.jsx:43:28)
-    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
-    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
-    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
-    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
-    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
-    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
-    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
-    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
-    at Object.beforeEach (/projects/challenge/src/tests/AllAppointments.test.js:15:52)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-      <failure message="TypeError: Cannot read property &apos;setProps&apos; of undefined
-    at Object.it (/projects/challenge/src/tests/AllAppointments.test.js:17:17)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
+    <testcase classname="SignInForm" name="renders a lname input" time="0">
     </testcase>
-    <system-out/>
-    <system-err/>
-  </testsuite>
-  <testsuite id="12" name="/projects/challenge/src/tests/AllPatients.test.js" errors="0" package="/projects/challenge/src/tests/AllPatients.test.js" hostname="localhost" tests="1" failures="1" time="1.124" timestamp="2022-05-26T10:05:27">
-    <properties>
-    </properties>
-    <testcase classname="testing AllPatients" name="should set the state values" time="0">
-      <failure message="TypeError: Cannot read property &apos;length&apos; of undefined
-    at AllPatients.render (/projects/challenge/src/pages/AllPatients.jsx:38:24)
-    at ReactShallowRenderer._mountClassComponent (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:883:37)
-    at ReactShallowRenderer.render (/projects/challenge/node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:800:14)
-    at renderElement (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:786:42)
-    at /projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:923:22
-    at withSetStateAllowed (/projects/challenge/node_modules/enzyme-adapter-utils/build/Utils.js:178:16)
-    at Object.render (/projects/challenge/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:922:64)
-    at new ShallowWrapper (/projects/challenge/node_modules/enzyme/build/ShallowWrapper.js:424:22)
-    at shallow (/projects/challenge/node_modules/enzyme/build/shallow.js:21:10)
-    at Object.beforeEach (/projects/challenge/src/tests/AllPatients.test.js:15:52)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:38:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
-      <failure message="TypeError: Cannot read property &apos;setProps&apos; of undefined
-    at Object.it (/projects/challenge/src/tests/AllPatients.test.js:17:17)
-    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
-    at resolve (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
-    at Promise.resolve.then.el (/projects/challenge/node_modules/p-map/index.js:46:16)
-    at &lt;anonymous&gt;
-    at process._tickCallback (internal/process/next_tick.js:189:7)" type="AssertionError">
-      </failure>
+    <testcase classname="SignInForm" name="should change the state of the Login Component" time="0">
+    </testcase>
+    <testcase classname="SignInForm" name="should change the state of the Login Component" time="0">
     </testcase>
     <system-out/>
     <system-err/>
