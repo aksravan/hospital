@@ -86,10 +86,10 @@ class SignInForm extends Component {
           <form onSubmit={this.handleSubmit} className="FormFields">
             {/*Write code here to create labels and fields for username and password */}
             <label className="FormField__Label" htmlFor="email">E-Mail Address</label>
-            <input className="FormField__Input" type="text" id="email" name="email" placeholder="Enter your email" />
+            <input className="FormField__Input" type="text" id="email" name="email" onChange={this.handleChange} value={this.state.email} placeholder="Enter your email" />
 
             <label className="FormField__Label" htmlFor="password">Password</label>
-            <input className="FormField__Input" type="password" id="password" name="password" placeholder="Enter your password" />
+            <input className="FormField__Input" type="password" id="password" name="password" onChange={this.handleChange} value={this.state.password} placeholder="Enter your password" />
             <div className="FormField">
               {/* Write code here to create a login button */}
 
